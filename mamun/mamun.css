@@ -89,3 +89,116 @@ main{
     color:#262626;
     font-size:18px;
 }
+.about-info-container{
+    display:flex;
+    justify-content:space-around;
+    text-align:justify;
+}
+.info-title{
+    text-align:center;
+    font-size:21px;
+}
+.info-description{
+text-align:center;
+font-size:20px;
+color:#574949;
+font-weight:700;
+}
+
+
+.what-i-do{
+    margin-top:130px;
+    text-align:center;
+    margin-bottom:50px;
+    font-size:30px;
+}
+.skill-container{
+    
+    display:flex;
+    gap:24px;
+    
+}
+.skill{
+    background:#ffffff;
+    box-shadow:0px 6px 50px rgba(0,0,0,0.06);
+    border-radius:5px;
+    padding:30px;
+    
+}
+.skill-title{
+    margin-top:30px;
+    font-weight:700;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.skill-description{
+    color:#757575;
+}
+.section-title{
+    margin-top:130px;
+    text-align:center;
+}
+/* resume content */
+.resume-content{
+    display:flex;
+    gap:24px;
+}
+ .resume-item{
+    margin-top:30px;
+    margin-bottom:30px;
+ }
+.resume .title{
+ margin-bottom:10px;
+font-weight:700;
+font-size:25px;
+color:#474747;
+margin-bottom:10px;
+
+}
+.resume .sub-title{
+    color:#757575;
+    font-weight:600;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.contact{
+    display:flex;
+    gap:100px;
+    background:rgb(248, 246, 247);
+    padding:130px 100px;
+    
+
+}
+.contact .icon{
+    margin-bottom:10px;
+}
+.contact .section-title{
+    text-align:left;
+    margin-bottom:10px;
+    
+}
+.contact input{
+    display:flex;
+    margin-bottom:5px;
+    height:40px;
+    width:300px;
+    border:0;
+
+}
+.contact textarea{
+    border:0;
+}
+.ok{
+    font-size:25px;
+    background:#ffa500;
+    height:50px;
+    width:100px;
+    color:#fff;
+    border-radius:5px;
+    border:none;
+    padding:5px 10px;
+}
+.ok:hover{
+    background:green;
+    color:#fff;
+}
